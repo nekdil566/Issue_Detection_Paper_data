@@ -1,36 +1,43 @@
-###Issue Detection in app reviews using Transfer Learning and the ChatGPT API
-Overview
-This repository contains the data and code necessary to replicate the experiments conducted in the study of Issue Detection in app reviews using Transfer Learning and the ChatGPT API. The goal is to automatically detect issues from user reviews, focusing particularly on low-rated app reviews.
+### Issue Detection in App Reviews Using Transfer Learning and the ChatGPT API
 
-Directory Structure
-Data Files:
-annotated_dataset_for_multi_classifications.csv: Dataset used for multi-class issue detection.
-annotated_dataset_for_binary_classifications.csv: Dataset used for issue detection.
-end-user reviews dataset from low rated apps.csv: Dataset used for detecting issues in low-rated app reviews.
+## Overview
 
-Code Files:
-ChatGPT_API.ipynb: Jupyter notebook for issue detection using the ChatGPT API.
+This repository contains the data and code necessary to replicate the experiments conducted in the study of **Issue Detection in App Reviews** using **Transfer Learning** and the **ChatGPT API**. The goal is to automatically detect issues from user reviews, focusing particularly on low-rated app reviews.
 
-Transfer Learning/: Folder containing files related to transfer learning-based issue detection models.
+## Directory Structure
 
-Requirements
-Python 3.x
+### Data Files:
+- **annotated_dataset_for_multi_classifications.csv**: Dataset used for multi-class issue detection.
+- **annotated_dataset_for_binary_classifications.csv**: Dataset used for binary issue detection.
+- **end-user reviews dataset from low rated apps.csv**: Dataset used for detecting issues in low-rated app reviews.
 
-Jupyter Notebook or JupyterLab
+### Code Files:
+- **ChatGPT_API.ipynb**: Jupyter notebook for issue detection using the ChatGPT API.
+- **Transfer Learning/**: Folder containing files related to transfer learning-based issue detection models.
 
-Libraries: pandas, scikit-learn, matplotlib, openai, jupyter
+## Requirements
 
-Running the Experiments
-Step 1: Install the Requirements
+- **Python 3.x**
+- **Jupyter Notebook** or **JupyterLab**
+- Libraries:
+  - pandas
+  - scikit-learn
+  - matplotlib
+  - openai
+  - jupyter
+
+## Running the Experiments
+
+### Step 1: Install the Requirements
+
 To install the required dependencies, use the following command:
 
-bash
-Copy
-Edit
 pip install pandas scikit-learn matplotlib jupyter openai
 Step 2: Data Overview
 annotated_dataset_for_multi_classifications.csv: Contains labeled data for multi-class classification of issues in app reviews.
-annotated_dataset_for_binary_classifications.csv: Contains labeled data for issue detection in app reviews(binary classification).
+
+annotated_dataset_for_binary_classifications.csv: Contains labeled data for issue detection in app reviews (binary classification).
+
 end-user reviews dataset from low rated apps.csv: Contains raw user reviews from low-rated apps. These reviews are used for training and testing the issue detection model.
 
 Step 3: Running the Notebooks
