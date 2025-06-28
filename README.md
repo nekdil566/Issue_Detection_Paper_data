@@ -1,4 +1,4 @@
-Issue_Detection_Paper
+###Issue Detection in app reviews using Transfer Learning and the ChatGPT API
 Overview
 This repository contains the data and code necessary to replicate the experiments conducted in the study of Issue Detection in app reviews using Transfer Learning and the ChatGPT API. The goal is to automatically detect issues from user reviews, focusing particularly on low-rated app reviews.
 
