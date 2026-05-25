@@ -15,7 +15,7 @@ This repository contains the data and code necessary to replicate the experiment
 - **ChatGPT_API.ipynb**: Jupyter notebook for issue detection using the ChatGPT API.
 - **Transfer Learning/**: Folder containing files related to transfer learning-based issue detection models.
 
-## Requirements
+## Requirements 
 
 - **Python 3.x**
 - **Jupyter Notebook** or **JupyterLab**
